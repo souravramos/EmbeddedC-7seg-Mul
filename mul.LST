@@ -1,0 +1,43 @@
+C51 COMPILER V8.05a   MUL                                                                  09/12/2018 12:00:42 PAGE 1   
+
+
+C51 COMPILER V8.05a, COMPILATION OF MODULE MUL
+OBJECT MODULE PLACED IN mul.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE mul.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include <REG51F.H>
+   2          
+   3          void main(void)
+   4          {
+   5   1      
+   6   1      }
+   7          //-----------------------------------------------
+   8          void display(display)
+   9          {
+  10   1              
+  11   1      }
+  12          //-----------------------------------------------
+  13          void delay(unsigned int a)
+  14          {
+  15   1              unsigned int i,j;
+  16   1              for(i=0;i<a;i++)
+  17   1                      for(j=0;j<120;j++);
+  18   1      }
+  19          //-----------------------------------------------
+  20          // END OF PROGRAM
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     38    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       2
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

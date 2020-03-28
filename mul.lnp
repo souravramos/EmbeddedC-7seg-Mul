@@ -1,0 +1,4 @@
+"STARTUP.obj",
+"mul.obj" 
+TO "mul" 
+RAMSIZE(256) 
